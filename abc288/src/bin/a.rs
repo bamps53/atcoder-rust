@@ -1,11 +1,11 @@
 use proconio::input;
 
 fn main() {
-    input!{
+    input! {
         n: u64,
-        ab: [(i64, i64); n]
+        ab: [(i64, i64); n],
     }
     for (a, b) in ab {
-        println!("{}", a+b);
+        println!("{}", a + b);
     }
 }

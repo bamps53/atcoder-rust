@@ -1,8 +1,8 @@
 use proconio::input;
 
 fn main() {
-    input!{
-        
+    input! {
+        n: u64
     }
+    println!("{}", n*n);
 }
-
